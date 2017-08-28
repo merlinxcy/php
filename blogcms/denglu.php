@@ -2,7 +2,7 @@
 	echo 1;
 	$servername="localhost";
 	$username="xeldax@localhost";
-	$password="bhkoaemlpd9041t";
+	$password="";
 	$mysql_handle=new mysqli($servername,$username,$password);
 	if($mysql_handle->connect_error)
 	{
